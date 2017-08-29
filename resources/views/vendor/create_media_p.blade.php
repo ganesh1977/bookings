@@ -10,7 +10,7 @@
                     <table border='0' width="100%">
                         {{ csrf_field() }}
                         <tr><td>                                
-                        <label for="username" class="col-md-4 control-label">Media Category:</label>
+                        <label for="username" class="col-md-4 control-label">Media Category:ganesh</label>
                             </td><td>
                                 <select name='vendorCategory' style="width:200px;" class="form-control" ng-model="itemSelected" ng-change="mediaChange(itemSelected)">
                                     <option value=''>Select Media Cateogry</option>    
@@ -22,7 +22,7 @@
                                 </select>    
                             </td></tr>
                         <tr><td colspan="2">&nbsp;</td></tr>
-                        <tr>fdfd
+                        <tr>
                             <td>
                                 <label for="username" class="col-md-4 control-label">Media Sub Category:</label>
                             </td>
