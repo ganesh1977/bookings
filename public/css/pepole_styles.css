@@ -1,0 +1,183 @@
+.slides1_wrap {
+	position: relative;
+	padding: 20px 0 37px 19px;
+	width: 248px;
+	margin-left:20px;
+}
+
+#slides1 {
+	overflow: hidden;
+	height: 212px;
+}
+
+#slides1 li {
+	list-style: none;
+	width: 350px;
+}
+
+#slides1 li img {
+	float: left;
+}
+
+#slides1 .content {
+	float: left;
+	width: 248px;
+	padding-left: 15px;
+}
+
+#slides1 li p {
+	line-height: 15px;
+}
+
+#slides1 h3 {
+	font-size: 14px;
+	color: #8d8d8d;
+	font-weight: normal;
+	text-transform: lowercase;
+}
+
+#slides1 h4 {
+	font-size: 18px;
+	color: #000;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: lowercase;
+	padding-bottom: 16px;
+}
+
+.slides1_wrap .prev {
+	position: absolute;
+	left: -6px;
+	top: 100px;
+	outline: 0;
+	margin-left: 6px;
+	margin-top: -24px;
+}
+
+.slides1_wrap .next {
+	position: absolute;
+	right: 90px;
+	top: 100px;
+	outline: 0;
+	margin-left: -20px;
+	margin-top: -27px;
+}
+
+.slides1_wrap a:active {
+	top: 102px;
+}
+
+.bx_pager {
+	padding-left: 25px;
+	padding-top: 15px;
+}
+
+.bx_pager a {
+	float: left;
+	background: url(bg_pager.png) no-repeat 0 -21px;
+	width: 14px;
+	height: 17px;
+	color: #fff;
+	font-size: 11px;
+	margin-right: 6px;
+	padding: 4px 0 0 7px;
+}
+
+.bx_pager a:hover, .bx_pager a.active {
+	background-position: 0 0;
+	text-decoration: none;
+}
+
+.auto_controls {
+	position: absolute;
+	bottom: -11px;
+	left: 75px;
+}
+
+.auto_controls a {
+	font-size: 16px;
+	color: #a3a3a3;
+	outline: 0;
+	padding: 3px;
+}
+
+.auto_controls a:hover {
+	text-decoration: none;	
+	background: ;
+	color: #e41996;
+}
+
+#content #notes li, #content #changes li {
+	font-size: 12px;
+	color: #8f8f8f;
+	margin-left: -101px;
+	padding-bottom: 6px;
+	margin-top: 38px;
+	margin-right: 139px;
+}
+
+#content #notes li a {
+	color: #e41996;
+}
+
+#idc-container a {
+	color: #e41996;	
+}
+
+#idc-container h3 {
+	color: #666;
+}
+
+
+/*Pepole Movent*/
+
+
+.mainColumns{padding:0 5px 0 5px}
+.column{display:block;margin:0;padding:0}
+.mainColumnLeft{float:left;margin:0 10px 0 0;width:182px}
+.mainColumnsRight{float:right;width:248px}
+.mainColumnCenter{float:left;width:248px}
+.mainColumnRight{float:right;width:182px}
+div.featureOffer{border:5px #E9E9E9 solid;display:block;height:150px;margin:0;padding:0px;position:relative}
+div.featureOffer
+div.featureOffer
+div.featurePanel{display:block;height:120px;position:absolute}
+div.featureOffer
+div.offerDisplayPanel{cursor:pointer;background:#FFF;display:block;height:110px;margin:0px;padding:0px;position:absolute;top:5px}
+div.featureOffer.smallDisplay
+div.offerDisplayPanel{left:90px; width:150px;}
+div.lrgDisplay{width:684px}
+div.lrg div.jcarousel-prev{background:url(http://s3.dtkcdn.com/dtk/images/sprite_master_ver022_36.png) no-repeat 0px -1132px;cursor:pointer;display:block;height:35px;left:10px;position:absolute;top:40px;width:35px}
+div.lrg div.jcarousel-next{background:url(http://s3.dtkcdn.com/dtk/images/sprite_master_ver022_36.png) no-repeat 0px -1185px;cursor:pointer;display:block;height:35px;position:absolute;right:10px;top:40px;width:35px}
+div.eventPage div.jcarousel-prev,
+div.eventPage div.jcarousel-next{opacity:0.8}
+div.lrgDisplay
+h2.lrgTitle{font-size:24px;padding:0px;margin:0px}
+div.lrgDisplay
+div.lrgPanel{right:0px;top:0px;width:490px}
+div.lrgDisplay
+div.lrgOfferDisplay{right:50px;width:430px}
+div.mediumDisplay{width:620px}
+div.medium div.jcarousel-prev{background:url(http://s3.dtkcdn.com/dtk/images/sprite_master_ver022_36.png) no-repeat 0px -1132px;cursor:pointer;display:block;height:35px;left:10px;position:absolute;top:40px;width:35px}
+div.medium div.jcarousel-next{background:url(http://s3.dtkcdn.com/dtk/images/sprite_master_ver022_36.png) no-repeat 0px -1185px;cursor:pointer;display:block;height:35px;position:absolute;right:10px;top:40px;width:35px}
+div.featureOffer
+h2.mediumTitle{font-size:20px;padding:0px;margin:0px}
+div.featureOffer
+div.mediumPanel{right:0px;width:440px}
+div.featureOffer
+div.mediumOfferDisplay{right:50px;width:248px}
+div.smallDisplay{width:248px}
+div.featureOffer
+h2.smallTitle{font-size:18px;left:16px;top:6px;line-height:17px}
+div.featureOffer
+div.smallPanel{right:0px;width:248px}
+div.smallDisplay
+div.smallOfferDisplay{right:5px;width:248px}
+
+div.small div.jcarousel-prev{background:url(http://s3.dtkcdn.com/dtk/images/sprite_master_ver022_36.png) no-repeat 0px -2266px;cursor:pointer;display:block;height:28px;left:15px;position:absolute;top:127px;width:28px}
+div.small div.jcarousel-next{background:url(http://s3.dtkcdn.com/dtk/images/sprite_master_ver022_36.png) no-repeat 0px -2327px;cursor:pointer;display:block;height:28px;position:absolute;left:75px;top:127px;width:28px}
+
+
+div.hexGreen{background:#5A9111;background: -moz-linear-gradient(top, #8CA817 0%, #5A9111 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5D98C4), color-stop(100%,#5A9111));background: -webkit-linear-gradient(top, #8CA817 0%,#5A9111 100%);background: -o-linear-gradient(top, #8CA817 0%,#5A9111 100%);background: -ms-linear-gradient(top, #8CA817 0%,#5A9111 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ca817', endColorstr='#5A9111',GradientType=0 );background:linear-gradient(top, #8CA817 0%,#5A9111 100%)}
+
+

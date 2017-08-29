@@ -1,0 +1,249 @@
+body{ font: normal 12px Verdana; color:#000; background:url(../images/header-04.gif) left top repeat-x; margin:0px; padding:0px;}
+.main-contanier{ width:1023px; height:auto;  margin:0 auto; padding:0px;}
+.clear{ clear:both;}
+/*====================================General HTML Properts Start=======================================*/
+
+div{ height:auto;}
+img{ width:auto; height:auto; font:normal 12px Arial; color:#000; border:none;}
+
+
+feildset,label{margin:0px;padding:0px;border:none;color:#2A0000;font-family: Verdana;font-size: 13px;font-style: normalfont-weight: normal;font-variant: normal;}
+textfeild{margin:0px; padding:0px; border:none; font:normal 12px Arial; color:#000;}
+h1{margin:0px; padding:0px; border:none; font:normal 12px Arial; color:#ff0000;}
+
+/*====================================General HTML Properts End=======================================*/
+
+/*<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>*/
+
+/*====================================General CSS Properts Start=======================================*/
+align-left{ float:left;}
+align-right{float:right}
+overflow{ overflow:hidden;}
+readmore{ font:normal 12px Arial; color:#000; text-decoration:none;}
+readmore:hover{font:normal 12px Arial; color:#000;}
+specer-div{ width:15px; height:15px;}
+medium-text{ font-size:12px;}
+null-border{ border:none;}
+/*====================================General CSS Properts End=======================================*/
+
+/*<><><><><><><><><><><><><><><><><>Header Line Start<><><><><><><><><><><><><><><><><><><><><><><><><>*/
+.main-contanier .header{width:1001px; height:134px; float:left; margin:0px 0px 0px 11px; padding:0px;}
+.header .logo{width: auto;height: auto;font:normal 45px BorisBlackBloxx;color:#FFF;margin:35px 0px 0px 0px;padding:0px 0px 0px 0px;text-align: left;}
+.main-contanier .menu{width:1000px; height:38px; background:#bb5817; float:left; margin:0px 0px 0px 11px ; padding:0px;}
+.menu .raj{width:100%; height:38px; float:left; margin:0px ; padding:0px;}
+.nav .menu-midle{width:99%; height:24px; float:left; background:url(../images/menu-midle.gif) repeat-x; margin:0px; padding:0px;}
+.menu-midle .home-bt{width:42px; height: auto; float:left;  text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px 0px 0px 20px; padding:17px 0px 0px 5px;}
+.home-bt a{ font: normal 15px Gisha;  color:#fff; text-decoration:none;}
+.home-bt a:hover{ font: normal 15px Gisha;  color:#fffd43; text-decoration:none;}
+.menu-midle .dr{width:2px;height:26px;float:left;margin:10px 0px 0px 6px;padding:0px;background-image: url(../images/dr.gif);background-repeat: repeat-y;}
+.menu-midle .Knowledge-bt{width:90px; height: auto; float:left; text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px ; padding:17px 0px 0px 5px;}
+.menu-midle .Strategies-bt{width:84px; height: auto; float:left; text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px ; padding:17px 0px 0px 5px;}
+.menu-midle .News-bt{width:65px; height: auto; float:left; text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px ; padding:17px 0px 0px 5px;}
+.menu-midle .Events-bt{width:65px; height: auto; float:left; text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px ; padding:17px 0px 0px 5px;}
+.menu-midle .People-bt{width:65px; height: auto; float:left; text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px ; padding:17px 0px 0px 5px;}
+.menu-midle .Resources-bt{width:86px; height: auto; float:left; text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px ; padding:17px 0px 0px 5px;}
+.menu-midle .Directories-bt{width:92px; height: auto; float:left; text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px ; padding:17px 0px 0px 5px;}
+.menu-midle .Classifieds-bt{width:90px; height: auto; float:left; text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px ; padding:17px 0px 0px 5px;}
+.menu-midle .Jobs-bt{width:56px; height: auto; float:left; text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px ; padding:17px 0px 0px 5px;}
+.menu-midle .Blog-bt{width:56px; height: auto; float:left; text-align: right; font: normal 15px  Gisha; color:#fff; Gisha; color:#fff; margin:0px ; padding:17px 0px 0px 5px;}
+.main-contanier .home-contanir{width:1000px; height:  auto; background:#FFF;float:left; margin:0px 0px 0px 6px ; padding:0px;}
+.home-contanir .banner{ width:100%; height:209px; float:left; margin:0px; padding:0px;}
+.banner .ads-bg{ width:1000px; height:178px; float:left; background:url(../images/midle-line.gif) left top repeat-x;  margin:23px 0px 0px 0px; padding:0px;}
+.ads-bg .left-cv{width:6px; height:176px; background:url(../images/left-cv.gif) left top no-repeat; float:left; margin:0px; padding:0px; }
+.ads-bg .ads-onebox{width:465px; height:162px; background:url(../images/ads-01.gif) left top no-repeat; float:left; margin:7px 0px 0px 3px; padding:0px;}
+.ads-bg .ads-twobox{width:465px; height:162px; background:url(../images/ads-01.gif) left top no-repeat; float:left; margin:7px 0px 0px 17px; padding:0px;}
+.ads-bg .right-cv{width:6px; height:176px; background:url(../images/right-cv.gif) right top no-repeat; float:right; margin:0px; padding:0px; }
+.main-contanier .home-userbox{width:100%; height: auto;   margin:10px 0px 0px 0px; padding:0px;}
+.home-userbox .usermain-box{width:1000px; height:auto; background:#eaeaea; margin:0 auto; padding:0px;}
+.usermain-box .uesr-top-box{width:100%; height:8px; float:left; background:url(../images/uesr-top.gif) left top repeat-x; margin:0px; padding:0px;}
+.uesr-top-box .uesr-leftbox{width:8px; height:8px; float:left; background:url(../images/uesr-left.gif) left top no-repeat; margin:0px; padding:0px;}
+.uesr-top-box .uesr-rightbox{width:8px; height:8px; float: right; background:url(../images/uesr-right.gif) left top no-repeat; margin:0px; padding:0px;}
+.usermain-box .uesr-midle-box{width:100%;  float:left;  margin:0px; padding:0px; border:solid 1px #cccccc;}
+.uesr-midle-box .uesr-midle-leftbox{width:8px; height:auto; float:left; background:url(../images/uesr-midle-left.gif) left top repeat-y; margin:0px; padding:0px;}
+.uesr-midle-box .uesrmidlebox{width:100%; height:auto; border: solid 1px #808080; margin:0px ; }
+.uesrmidlebox-rightbox{width:180px; height:auto; float:  right; margin:8px 5px 10px 0px; padding:0px;}
+.uesrmidlebox .mainuesrbox{width:770px; height: auto; float:left; background:#fff; margin:0px ; padding:0px }
+.gaiir-boxone{width:211px; height:28px; float: right; background:#bb5817; border:solid 1px #CCC; margin:0px 0px 0px 0px; font: normal 15px  Gisha; color:#fff;}
+.Gallery {width:50px; height:auto; float:left; margin:6px 0px 0px 28px; padding:0px; font: normal 15px Gisha;  color:#fff;}
+.Gallery a{ font: normal 15px Gisha;  color:#fff; text-decoration:none;}
+.Gallery a:hover{ font: normal 15px Gisha;  color:#000; text-decoration:none;}
+.line{width:2px; height:14px; background:#FFF; float:left;  margin:8px 0px 0px 22px; padding:0px;}
+.FAQ{width:auto; height:20px ; float:left; margin:6px 0px 0px 42px; padding:0px; }
+.FAQ a{ font: normal 15px Gisha;  color:#fff; text-decoration:none;}
+.FAQ a:hover{ font: normal 15px Gisha;  color:#000; text-decoration:none;}
+.uesrmidlebox .may-bg{width:178px; height:384px; float:left; background:#69C; margin:8px 0px 0px 7px; padding:0px;}
+.uesrmidlebox .gaiir-links{width:179px; height:28px; float: right ; margin:8px 0px 0px 0px; padding:0px;} 
+.gaiir-boxone .text-box{width:auto;height:auto;float:left;text-align: right;color:#fff;color:#FFF;margin:6px 0px 0px 29px;padding:0px;font-family: Gisha;
+font-size: 15px;font-style: normal;font-weight: normal;font-variant: normal;}
+.gaiir-links .gaiir-boxtwo{width:180px; height:28px; float: right; background:#bb5817; border:solid 1px #CCC; }
+.gaiir-boxtwo .register-box{width:auto;height:auto;float:left; font: normal 15px Gisha;  color:#fff; margin:7px 0px 0px 20px; padding:0px;}
+.register-box a{ font: normal 15px Gisha;  color:#fff; text-decoration:none;}
+.register-box a:hover{ font: normal 15px Gisha;  color:#000; text-decoration:none;}
+.gaiir-boxtwo .login-box{width:auto;height:auto;float:left; font: normal 15px Gisha;  color:#fff; margin:7px 0px 0px 19px; padding:0px;}
+.login-box a{ font: normal 15px Gisha;  color:#fff; text-decoration:none;}
+.login-box a:hover{ font: normal 15px Gisha;  color:#000; text-decoration:none;}
+.Maymain-box{width:179px; height:93px; float:left;  margin:4px 0px 0px 0px; padding:0px;}
+.may-left{width:11px; height:94px; float:left; background:url(../images/may-left.gif) left top no-repeat; margin:0px; padding:0px;}
+.may-midle{width:157px; height:94px; float:left; background:url(../images/may-midle.gif) left top repeat-x; margin:0px; padding:0px;}
+.Maytexthd{width:140px ; height:18px; float:left; text-align: left;  font: normal 17px  Harabara;  color:#b64f15; margin:3px 0px 0px 10px; padding:0px;}
+.may-call-us{width:100%; height:69px; float:left; background:url(../images/call-us.gif) left  no-repeat; margin:4px 0px 0px 0px; padding:0px;}
+.speak{width:auto; height:15px; float: right;  text-align: left;  font: normal 17px  joiiy;  color:#5f5f5f; margin:17px 8px 0px 0px; padding:0px;}
+.cellno{width:auto; height:15px; float:  right;  text-align: left;  font: normal 16px  Harabara;  color:#000; margin:10px 0px 0px 0px; padding:0px;}
+.may-right{width:11px; height:94px; float: right; background:url(../images/may-right.gif) left top no-repeat; margin:0px; padding:0px;}
+.Postleftboxmain{width:178px; height: 168px; float: left; border: solid 1px #bababa;margin:4px 0px 0px 0px; padding:0px;}
+.Postleftboxmain-text{ width:168px; height:20px; float:left;margin:6px 0px 0px 11px; padding:0px; }
+.Postleftboxmain-textone{ width:auto; height:auto; float:left;  text-align: left;  font: normal 14px  Harabara;  color:#000; margin:0px 0px 0px 5px; padding:0px;}
+.Postleftboxmain-texttwo{ width:auto; height:auto; float: left;  text-align: left;  font: normal 14px  Harabara;  color:#bb5817; margin:0px 0px 0px 5px; padding:0px;}
+.Sendus-yourrequest{width:160px; height:130px; float:left; margin:8px 0px 0px 12px; padding:0px ; text-align: left;  font: normal 11px  Arial;  color:#565050;  }
+.Sendbt{width:55px; height:24px;  margin:4px 0px 0px 99px; padding:0px 0px 0px 0px; }
+.send-botton{width:55px; height:24px; background:url(../images/Send-us-your-request..gif) left top no-repeat; width:55px; height:22px;font: normal 13px  Gisha;  color:#fff;}
+.Want-To{width:178px; height:107px; float:left; border: solid 1px #bababa;margin:4px 0px 0px 0px; padding:0px;}
+.BUY{width:100%; height:auto; float:left; text-align: center;  font: normal 15px  Harabara;  color:#b74f16; margin:6px 0px 0px 0px; padding:0px;} 
+.Classified-Ads{width:162px; height:44px; float:left; margin:5px 0px 0px 11px; padding:0px ;}
+.gaiir-links .line{width:2px; height:14px; background:#FFF; float:left;  margin:8px 0px 0px 22px; padding:0px;}
+.uesr-midle-box .uesr-midle-rightbox{width:8px; height:auto; float:right; background:url(../images/uesr-midle-right.gif) left top repeat-y; margin:0px; padding:0px;}
+.usermain-box .uesr-Bottom-box{width:100%; height:8px; float:left; background:url(../images/uesr-bottom-midle.gif) left top repeat-x; margin:0px; padding:0px;}
+.uesr-Bottom-box .uesr-leftBottom{width:8px; height:8px; float:left; background:url(../images/uesr-left-bottom.gif) left top no-repeat; margin:0px; padding:0px;}
+.uesr-Bottom-box .uesr-RightBottom{width:8px; height:8px; float: right; background:url(../images/uesr-bottom-right.gif) left top no-repeat; margin:0px; padding:0px;}
+.Vendorinbox{width: 400px; height: auto; float:left; margin:10px 0px 0px 10px; padding:0px; border:solid 1px #deb299;} 
+.vrbox{width:10px; height:10px; float:left; margin:0px; padding:0px;}
+.smh{ width:80%; height:20px; float:left; margin:0px 0px 0px 10px; padding:0px; text-align: left; font-weight:inherit;font: 15px Gisha; color:#b64f15  ;}   
+.Media{width:100%; height:20px; float:left; margin:10px 0px 0px 0px; padding:0px; text-align: center; font: normal 11px  Gisha; color:#000;}
+.Mediaone{width:100%; height:20px; float:left; margin:22px 0px 0px 0px; padding:0px; text-align: center; font: normal 11px  Gisha; color:#000;}
+.Mediatwo{width:100%; height:20px; float:left; margin:9px 0px 0px 0px; padding:0px; text-align: center; font: normal 11px  Gisha; color:#000;}
+.Mediather{width:100%; height:20px; float:left; margin:12px 0px 0px 0px; padding:0px; text-align: center; font: normal 11px  Gisha; color:#000;}
+.teboxs{width: 70px; height:20px; float:left; margin:0px 0px 0px 0px; padding:0px; text-align: right;  font: normal 11px  Verdana;  color:#000;}
+.rra{width:auto; height:auto; float:left; margin:0px; padding:0px; }
+.Avlble{width:470px; height:120px; float:left; margin:0px; padding:23px 0px 0px 30px;}
+.Avlbleboxone{width:250px; height:90px; float:left; margin:0px; padding:0px;text-align: left;  font: normal 11px  Verdana;  color:#303030;}
+.Avlbleboxone .taexbox{width:210px; height:auto; float:left; margin: 0px 0px 0px 44px; padding:0px; text-align: left;  font: normal 11px  Verdana;  color:#000;}
+.Searchbox{width:130px; height:116px; float:left; margin:0px 0px 0px 70px; padding:0px;}
+.Searchbox .boxone{width:124px; height:45px; float:left; margin:0px; padding:0px; background:url(../images/dt-midle.png) left top no-repeat;}
+.boxone .bgimage{width:100%; height:7px; float:left; margin: 0px; padding:0px; }
+.botton{width:89px; height:30px; float:left; ;margin:10px 0px 0px 15px;  padding:0px;  }
+.Search-botton{width:89px; height:30px; background:url(../images/se-botton.png) left top no-repeat;text-align: center;  font: normal 19px  Gisha;  color:#fff;  }
+.Searchbox .or{width:90%; height:15px; float:left; margin:0 auto; padding:0px; text-align: center;  font: normal 12px  Verdana;  color:#b85017;}
+.Searchbox .boxtwo{width:124px; height:45px; float:left; margin:0px 0px 0px 0px; padding:0px; background:url(../images/dt-bottom.png) left top no-repeat;}
+.boxtwo .bottontwo{width:99px; height:29px; float:left; background:url(../images/make.png) left top no-repeat;  margin:9px 0px 0px 11px;  padding:0px;}
+.EasySearch{width:300px; height:30px; float: left; background:#ad4812;  margin:0px 0px 0px 25px;  padding:0px;}
+.EasySearch .el{width:5px; height:30px; float:left; background:url(../images/e-s-l.png) left top no-repeat; margin:0px; padding:0px;}
+.EasySearch .text{ width:42px; height:23px; float:left; margin:0px; padding:0px; text-align: center;  font: normal 12px  Verdana;  color:#fff;}
+.EasySearch .e-icon{width:26px; height:28px; float:left;background:url(../images/e-iconv.png) left top no-repeat; margin:2px 0px 0px 10px; padding:2px 0px 0px 0px;}
+.EasySearch .textbox{ width:192px; height:30px; float:left; margin:4px 0px 0px 5px; padding:0px;}
+.EasySearch .csr{width:5px; height:30px; float:right; background:url(../images/e-s-r.gif) right top no-repeat; margin:0px; padding:0px;}
+.boxsing{width:100%; height:25px; float:left; margin:0px; padding:0px;} 
+.boxsing .singinbox{width:61px; height:22px; float:left;  margin:5px 0px 0px 218px; padding:0px 0px 0px 0px; text-align: center;  font: normal 12px  Verdana;  color:#fff;}
+.singin-botton{width:61px; height:22px; float:right; background:url(../images/singin.png) left top  no-repeat;   font: normal 12px  Verdana;  color:#fff;}
+.boxfor{width:30%; height:25px; float:left; margin:10px 0px 0px 180px; padding:0px; text-align: left;  font: normal 6px  Verdana;  color:#000;} 
+.boxfor a{ font: normal 6px Verdana;  color:#000; text-decoration:none;}
+.boxfor a:hover{ font: normal 6px Verdana;  color: #F00; text-decoration:none;}
+.Registeredvendor{width:100%; height:20px; float:left; margin:0px; padding:0px 0px 0px 210px; text-align: left;  font: normal 12px  Verdana;  color:#b85017;}
+.chcekbox{width:20px; height:20px; float:left; margin:0px; padding:0px;}
+.chcekboxtextbox{ width:150px; height:20px; float:left; margin:0px 0px 0px 10px;  padding:0px;}
+.Register{width:87px; height:27px; float:left;  margin:0px 0px 0px 20px; padding:6px 0px 0px 0px;  text-align: center;  font: normal 12px  Verdana;  color:#fff;}
+.Register-botton{width:87px; height:27px; float:left; background:url(../images/rag.png) left top no-repeat;   font: normal 12px  Verdana;  color:#fff;}
+.Register a{ font: normal 12px Verdana;  color:#fff; text-decoration:none;}
+.Register a:hover{ font: normal 12px Verdana;  color:#fffd43; text-decoration:none;}
+.BZZOX{width:100%; height:20px; float:left; margin:0px 0px 0px 70px; padding:0px ; text-align: left;  font: normal 12px  Verdana;  color:#b85017;}
+.Uploadmainbox{width:630px; height:148px; float:left; background:#FFF; border: solid 1px #d2d2d2; margin:5px 0px 0px 108px; padding:0px 10px 0px 10px;}
+.uptextmaincolor{text-align: left;  font: normal 13px  Verdana;  color:#b85017;margin:28px 0px 0px 108px; padding:10px 0px 0px 0px;}
+.upheight{margin:28px 0px 0px 0px}
+.location { float:left;  text-align: left;  font: normal 12px  Verdana;  color:#b85017; margin:10px 10px 10px 0px; padding:0px; }
+.raj{width:100%; height:15px; float:left; margin:0px; padding:0px;  text-align: left;  font: normal 12px  Verdana;  color:#000;}
+.Mediainbox{width:100%; height:13px; float:left; margin:0px; padding:10px 0px 0px 0px; border-bottom: solid 1px #eed6c6;  text-align: left;  font: normal 13px  Verdana;  color:#000;}
+.Mediainonebox{width:90%; height:15px; float:left; margin:2px 0px 0px 80px; padding:0px; text-align: left;  font: normal 12px  Verdana;  color:#000;}
+.Uploadbtaon{width:67px; height:22px; background:url( ../images/Update.gif) right top no-repeat; float:right; margin:10px 20px 0px 0px; padding:0px;}
+.Upload-botton{width:68px; height:22px; background:url(../images/upload.gif) left top no-repeat; font: normal 15px  Arial;  color:#fff; }
+.Updatebtaon{width:68px; height:22px; background:url(../images/upload.gif) left top no-repeat;  float:right; margin:10px 20px 0px 0px; padding:0px;}
+.Upload-botton{width:68px; height:22px; background:url(../images/upload.gif) left top no-repeat; font: normal 15px  Arial;  color:#fff; }
+.Updatebtaons{width:67px; height:22px;  float:right; margin:10px 20px 0px 0px; padding:0px;}
+.Update-botton{width:68px; height:22px; background:url( ../images/Update.gif) right top no-repeat; font: normal 15px  Arial;  color:#fff;}
+.fgh{width:100%; height:44px;  background:url(../images/bg-battons.gif) left top repeat-x; margin:5px 0px 0px 0px; padding:0px; float:left;}
+.Makemymedialist{width:172px; height:27px; float:left; background:url(../images/Make-my-media-list-bg.gif) left top repeat-x; margin:19px 0px 0px 56px; padding:0px;}
+.Makemymedialist-left{width:1px; height:27px; background:url(../images/Makemymedialist-left.gif) no-repeat; float:left; margin:0px; padding:0px;}
+.Makemymedialist-midle{width:98%; height:25px; float:left; margin:0px; padding:0px 0px 0px 0px;}
+.Makemymedialist-tatextbox{width:auto; height:13px; float:left; margin:3px 0px 0px 1px; padding:0px; text-align: center;  font: normal 13px  Verdana;  color:#6d2700;}
+.Makemymedialist-right{width:1px; height:27px; background:url(../images/Makemymedialist-left.gif) no-repeat; float: right; margin:0px; padding:0px;}
+.Clickheare{width:26px; height:18px; float:left; text-align: center;  font: normal 9px  Verdana;  color:#494949; margin:1px 0px 0px 3px; padding:0px;} 
+.Addfeaturestomymedialist{width:241px; height:27px; float:left; background:url(../images/Make-my-media-list-bg.gif) left top repeat-x; margin:19px 0px 0px 59px; padding:0px;}
+.Addfeaturestomymedialist-left{width:1px; height:27px; background:url(../images/Makemymedialist-left.gif) no-repeat; float:left; margin:0px; padding:0px;}
+.Addfeaturestomymedialist-midle{width:98%; height:25px; float:left; margin:0px; padding:0px 0px 0px 0px;}
+.Addfeaturestomymedialist-tatextbox{width:auto; height:13px; float:left; margin:3px 0px 0px 1px ; padding:0px; text-align: left;  font: normal 13px  Verdana;  color:#6d2700;}
+.Addfeaturestomymedialist-right{width:1px; height:27px; background:url(../images/Makemymedialist-left.gif) no-repeat; float: right; margin:0px; padding:0px;}
+.jsdf{width:100%; height:15px;  margin:30px 0px 0px 0px; padding:0px; float:left;  text-align: left;  font: normal 13px  Verdana;  color:#ac4713;}
+.UpdatebyItemcode{width:100%; height:57px; float:left; border: solid 1px #d2d2d2; margin:6px 0px 0px 0px; padding:0px;}
+.searchbyItemcodeinbox{ width:310px; height:32px; float:left; background:#b75016; border: solid 1px #d2d2d2;  margin:14px 0px 0px 150px; padding:0px; }
+.searchbyItemcodeinbox-left{width:3px; height:32px; background: url(../images/searchbyItemcodeinbox-left.gif) left top no-repeat; float:left; margin:0px; padding:0px;}
+.searchbyItemcodeinboxtextbox{width:65px; height:23px; float:left; margin:1px 0px 0px 3px; padding:0px;  text-align: left;  font: normal 12px  Verdana;  color:#fff;}
+.searchbyItemcodeinbox-right{width:5px; height:32px; background:url(../images/searchbyItemcodeinbox-right.gif) left top no-repeat; float: right; margin:0px; padding:0px;}
+.e-iconv{width:26px; height:27px; background:url(../images/e-iconv.png) left top no-repeat; float:left; margin:3px 0px 0px 4px; padding:0px;}
+.searchbytextbix{width:202px; height:21px; float:left; margin:6px 0px 0px 2px; padding:0px}
+.Updatebtaons{width:67px; height:22px; float: left; margin:20px 0px 0px 23px; padding:0px;}
+.Addphotos{width: auto; height:20px; float:left; margin:4px 0px 0px 20px ; padding:0px;  text-align: left;  font: normal 13px  Verdana;  color:#6d2700;}
+.Addphotos a{ font: normal 13px Verdana;  color:#6d2700; text-decoration:none;}
+.Addphotos a:hover{ font: normal 13px Verdana;  color: #F00; text-decoration:none;}
+.boxfor a{ font: normal 10px Verdana;  color:#000; text-decoration:none;}
+.boxfor a:hover{ font: normal 10px Verdana;  color: #F00; text-decoration:none;}
+.uvl{width:172px; height:27px; float:left; background:url(../images/Make-my-media-list-bg.gif) left top repeat-x; margin:19px 0px 0px 56px; padding:0px;}
+.uvl-left{width:1px; height:27px; background:url(../images/Makemymedialist-left.gif) no-repeat; float:left; margin:0px; padding:0px;}
+.uvl-midle{width:98%; height:25px; float:left; margin:0px; padding:0px 0px 0px 0px;}
+.uvl-tatextbox{width:auto; height:13px; float:left; margin:4px 0px 0px 10px; padding:0px; text-align: left;  font: normal 13px  Verdana;  color:#6d2700;}
+.uvl-tatextbox a{ font: normal 13px Verdana;  color:#000; text-decoration:none;}
+.uvl-tatextbox a:hover{ font: normal 13px Verdana;  color: #F00; text-decoration:none;}
+.uvl-right{width:1px; height:27px; background:url(../images/Makemymedialist-left.gif) no-repeat; float: right; margin:0px; padding:0px;}
+.fooder{ width:100%; height:41px; float:left; background:#bb5817; margin:0px ; padding:0px;}
+.login_vendor{  height:20px; width:216px;  margin-left: 208px; margin-top:23px; }
+.updat_text{color: #B64F15;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 16px;
+    margin-bottom: 13px;
+    padding: 0 7px 1px 5px;}
+#existing_vendor label {
+    float: left;
+    font-family: verdana;
+    font-size: 11px;
+    padding: 0;
+    text-align: left;
+	padding-left:20px;
+    width: auto;
+}
+
+.vendor_button{width:61px; height:22px; float:right; margin:11px 29px 0px 0px ; background:url(../images/singin.png) left top  no-repeat;   font: normal 12px  Verdana;  color:#fff;}
+#existing_vendor select {
+    border: 1px solid #D9BDAE;
+    border-radius: 3px 3px 3px 3px;
+    float: right;
+    height: 19px;
+	margin-right:28px;
+}
+#existing_vendor h4{ border-bottom:#ccc 1px solid; margin-bottom:-12px;}
+#existing_vendor h2{ font-size: 17px;
+    margin: auto;   
+    padding-left: 88px;
+    padding-top: 10px;
+	color: #B74F16;}
+	#existing_vendor span{border-bottom:#ccc 1px solid; }
+#existing_vendor{ width:800px; margin:auto;}
+.vendor_box{ width:283px;  border:#ccc 1px solid; float:left; margin-left:60px; padding-left:6px; padding-right:6px; -moz-border-radius: 3px;
+    -webkit-border-radius: 3px; padding-bottom:15px; margin-bottom:34px;}
+.vendor_3box{ width:800px; height:20px; border:#ccc 1px solid;}
+.vendor_EasySearch {
+   
+    float: left;
+    margin-left: 419px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 286px;
+	padding:3px;
+	border:#ccc 1px solid;
+}
+.vendor_button2 {
+    background: url("../images/singin.png") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    float: right;
+    font: 12px Verdana;
+    height: 22px;
+    margin:4px 19px  0 0;
+    width: 61px;
+}
