@@ -12,7 +12,7 @@
 */
 
 
-
+use Illuminate\Http\Request;
 //Route::get('/', 'PagesController@index');
 
 Route::get('knowledge',function()
@@ -46,11 +46,32 @@ Route::get('create_vendor', 'VendorController@create_vendor');
 Route::get('create_media', 'VendorController@create_media');
 
 Route::group(array('before' => 'auth'), function(){
-Route::get('create_media_p', ['middleware' => 'auth','uses'=>'VendorController@create_media_p']); });
+    Route::get('create_media_p', ['middleware' => 'auth','uses'=>'VendorController@create_media_p']);     
+});
 
 Route::post('media_select_type', 'VendorController@media_select_type');
 
+Route::get('create_produt', 'VendorController@create_product');
 
+Route::get('error',function()
+{
+		return view('errors.404');
+});
+
+Route::get('sess',function(Request $r)
+{
+    $r->session->put('user','123');
+    return $r->session->get('user');    
+});
+
+
+
+Route::get('session/get','SessionController@accessSessionData');
+Route::get('session/set','SessionController@storeSessionData');
+Route::get('session/remove','SessionController@deleteSessionData');
+
+
+Route::post('productCategory','VendorController@product_select_type');
 
 /*Route::get("get_customer/{name}",function($name)
 {
