@@ -27,18 +27,59 @@
                                 <label for="username" class="col-md-4 control-label">Media Sub Category:</label>
                             </td>
                             <td>
-                                <select  ng-model="names" style="width:200px;" class="form-control" ng-options="item.sub_category_name for item in names">	
-								<option value=''>Select Media Sub Cateogry</option>
+                                <select  style="width:200px;" class="form-control" ng-model="mediaItemSelected" ng-options="item.sub_category_name for item in names" ng-change="mediaTypeChange(mediaItemSelected)">	
+                                    <option value='' >Select Media Sub Cateogry</option>
                                 </select>
                             </td>
                         </tr>
                         <tr><td colspan="2">&nbsp;</td></tr>
                         <tr><td>
-                        <label for="username" class="col-md-4 control-label">Media description :</label>
+                        <label for="username" class="col-md-4 control-label">Media Sub Category Type :</label>
                         </td><td>
-                        <textarea  cols="30" rows="10" class="form-control"></textarea>
+                        <select name='vendorCategoryType' style="width:200px;" class="form-control" ng-model="itemSelectedType" ng-change="mediaChangeType(itemSelected)">
+                            <option value=''>New Sub Category</option>
+                            @foreach($maincategory as $mainCat)                                
+                                <option value='{{ $mainCat->id }}'>{{ $mainCat->media_type_name }}</option>
+                            @endforeach
+                        </select>                            
+                        <!-- <textarea  cols="30" rows="10" class="form-control"></textarea> -->
                         </div>
                     </td></tr>
+            <tr><td colspan="2">&nbsp;</td></tr>
+            <tr>
+                    <td>                                
+                        <label for="username" class="col-md-4 control-label">Product Main Category:</label>
+                    </td>
+                    <td>
+                        <select name='ProductMainCategory' style="width:200px;" class="form-control" ng-model="ProdcutNames" ng-options="item.product_name for item in ProdcutNames"  ng-change="ProductChange(itemProductSelected)">
+                            <option value=''>Select Product Category</option>                                
+                        </select>    
+                    </td>
+            </tr>
+            <tr><td colspan="2">&nbsp;</td></tr>
+            <tr>
+                    <td>                                
+                        <label for="username" class="col-md-4 control-label">Product Sub Category:</label>
+                    </td>
+                    <td>
+                        <select style="width:200px;" class="form-control" ng-model="ProdcutSubNames">
+                            <option value=''>Select Product Sub Category</option>                                
+                            <option value='1'>1</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                        </select>    
+                    </td>
+            </tr>
+            <tr><td colspan="2">&nbsp;</td></tr>
+            <tr>
+                    <td>                                
+                        <label for="username" class="col-md-4 control-label">Product Description:</label>
+                    </td>
+                    <td>
+                        <textarea ng-model="productDescription"></textarea>
+                    </td>
+            </tr>
             <tr><td colspan="2">&nbsp;</td></tr>
             <tr><td colspan="2" align="center"><input type="submit" value='Media Registraton'></td></tr>
                     </table>                
@@ -47,22 +88,27 @@
                             <tr><td colspan="2" align="center"><b><h2>View Vendor Media</h2></b></td></tr>
                             <tr><td>
                             <table border='1' width="100%">
-                                <tr><td>                                
-                                <label for="username" class="col-md-4 control-label">Media Category:</label>
-                                    </td><td>&nbsp;
-                                    
-                                    </td></tr>
-                                <tr><td>
-                            <label for="username" class="col-md-4 control-label">Media Sub Category:</label>
-                            </td><td>&nbsp;
-                                
-                            </td></tr>
-                                <tr><td>
-                                <label for="username" class="col-md-4 control-label">Media description :</label>
-                                </td><td>&nbsp;
-                                    
-                            </td></tr>
-                            </table>  
+                                 <tr>
+                                    <td>                                
+                                        <label for="username" class="col-md-4 control-label">Media Category:</label>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="username" class="col-md-4 control-label">Media Sub Category:</label>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="username" class="col-md-4 control-label">Media description :</label>
+                                    </td>
+                                    <td>
+                                        &nbsp;                                    
+                                    </td>
+                                </tr>
+                            </table>   
                             </table>
                          </td></tr>
                     </table>
@@ -74,30 +120,57 @@
     angular.module("media",[]).controller('media_controller',function($scope,$http)
     {
             $scope.mediaChange = function()
-            {           //alert('Hai'+$scope.itemSelected);
-                        $http({
+            {           
+                    $http({ 
                         url: "/laravel_new/public/media_select_type", 
                         method: "POST",
                         headers: {'Accept': 'application/json','Content-Type': 'application/x-www-form-urlencoded'},
                         data: { "id":$scope.itemSelected},
                         withCredentials: false,
-                    }).success(function(response, status,headers, config){    
-						//alert(JSON.stringify(response));            
-                        $scope.names = response;
-						//alert($scope.names);
-						//alert(" New DATA::::: "+response+" STATUS "+status+"onfig::"+config);     
-                        console.log($scope.names);
-                        if(response==1)
-                        {
-                            //alert("Successfully Registered");
-                            $scope.status = response;                    
-                            window.location.href = 'vendor_zone';
-                        }else { alert("Not Successfully Registered");  }                
+                    }).success(function(response, status,headers, config){    						
+                        $scope.names = response;						
+                        console.log($scope.names); 
                     }).error(function(response, status, headers, config) {                
                         console.log(response);
                         $scope.status = status;
                     });     
             }
+            
+            $scope.mediaChangeType = function()
+            {
+                    alert('Hai'); 
+                    return false;
+            }
+            
+            $scope.ProductChange = function()
+            {
+                    alert('Hai'); 
+                    return false;
+            }
+            $scope.mediaTypeChange = function()
+            {
+                    var data = $.param($scope.mediaItemSelected);
+                    alert(data);
+                    
+                    $http({ 
+                        url: "/laravel_new/public/productCategory", 
+                        method: "POST",
+                        headers: {'Accept': 'application/json','Content-Type': 'application/x-www-form-urlencoded'},
+                        data: { "id":$scope.mediaItemSelected },
+                        withCredentials: false,
+                    }).success(function(response, status,headers, config){    	       
+                        $scope.ProdcutNames = response;						
+                        console.log($scope.ProdcutNames); 
+                    }).error(function(response, status, headers, config) {                
+                        console.log(response);
+                        $scope.status = status;
+                    });     
+                    
+                    
+                    //alert (' ORAI '+data); return false;
+            }
+            
+            
     });
 </script>
 @endsection
