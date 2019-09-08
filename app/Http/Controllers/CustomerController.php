@@ -8,5 +8,7 @@ use App\Http\Requests;
 
 class CustomerController extends Controller
 {
-    //
+    public function index($param) {
+        
+    }
 }
