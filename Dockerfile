@@ -17,10 +17,5 @@ RUN apt-get update && apt-get install -y \
         zlib1g-dev libicu-dev g++ \
         libreadline-dev \
         readline-common \
-        libxml2-dev \
-    && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
-    && docker-php-ext-install gd \
-    && docker-php-ext-install mbstring opcache \
-    && docker-php-ext-install zip pdo_mysql intl soap mysqli \
-    && docker-php-ext-install php-mongodb
+        libxml2-dev 
 EXPOSE 9000/tcp
