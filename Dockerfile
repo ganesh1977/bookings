@@ -4,8 +4,8 @@ RUN php -r "echo implode(', ', get_loaded_extensions());";
 RUN pecl install -o -f redis \
 &&  rm -rf /tmp/pear \
 &&  docker-php-ext-enable redis
-#RUN curl -sL http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb -o /libpng.deb
-#RUN dpkg -i /libpng.deb
+RUN curl -sL http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb -o /libpng.deb
+RUN dpkg -i /libpng.deb
 RUN apt-get update && apt-get install -y \
         procps \
         libfreetype6-dev \
@@ -17,10 +17,9 @@ RUN apt-get update && apt-get install -y \
         zlib1g-dev libicu-dev g++ \
         libreadline-dev \
         readline-common \
-        libxml2-dev \
-    && docker-php-ext-install gd \
-    && docker-php-ext-install mbstring opcache \
-    && docker-php-ext-install zip pdo_mysql intl soap mysqli \
-    && docker-php-ext-install php-mongodb
-        
+        libxml2-dev 
+RUN docker-php-ext-install mbstring opcache
+RUN docker-php-ext-install zip pdo_mysql intl soap mysqli
+RUN docker-php-ext-install gd
+RUN docker-php-ext-install php-mongodb        
 EXPOSE 9000/tcp
