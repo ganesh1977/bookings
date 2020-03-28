@@ -18,8 +18,6 @@ RUN apt-get update && apt-get install -y \
         libreadline-dev \
         readline-common \
         libxml2-dev 
-RUN docker-php-ext-install mbstring opcache
-RUN docker-php-ext-install zip pdo_mysql intl soap mysqli
-RUN docker-php-ext-install gd
-RUN docker-php-ext-install php-mongodb        
+RUN pecl install mongodb \
+    &&  echo "extension=mongo.so" > /usr/local/etc/php/conf.d/mongo.ini
 EXPOSE 9000/tcp
